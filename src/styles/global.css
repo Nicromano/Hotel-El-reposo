@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.marca {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 49px;
+}
+
+.intermedio {
+  background-color: #f4f5f8;
+}
+.marca > .punto {
+  font-family: "Roboto", sans-serif;
+  color: #6c63ff;
+}
+
+.bold{
+    font-weight: bold;
+}
+.primary {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
