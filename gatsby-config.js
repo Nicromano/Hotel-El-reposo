@@ -5,22 +5,8 @@
  */
 
 module.exports = {
+  pathPrefix: '/HotelElReposo', 
   /* Your site config here */
   plugins: [
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Rubik`,
-            variants: [`400`, `500`]
-          }, 
-          {
-            family: `Roboto`,
-            subsets: [`latin`]
-          },
-        ],
-      },
-    }
   ],
 }
