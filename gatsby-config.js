@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  pathPrefix: '/HotelElReposo', 
+  pathPrefix: '/Hotel-El-reposo', 
   /* Your site config here */
   plugins: [
   ],
