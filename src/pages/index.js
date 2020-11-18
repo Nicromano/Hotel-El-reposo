@@ -13,7 +13,7 @@ export default function Home() {
               <h3>El mejor hotel a tu disposición</h3>
               <h4 className="text-muted">Mira nuestras habitaciones</h4>
               <p className="pt-3">
-                <button className="btn btn-primary btn-lg"><a className="text-white text-decoration-none" href="rooms/">Habitaciones</a></button>
+                <button className="btn btn-primary btn-lg"><a className="text-white text-decoration-none" href="/rooms/">Habitaciones</a></button>
              </p>
             </div>
           </div>
