@@ -7,6 +7,9 @@ export default function Header() {
             <img src="/img/review.svg" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy" />
             <span className="ml-1">Hotel El Reposo</span>
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
             <li className="nav-item active">
