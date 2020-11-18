@@ -12,7 +12,7 @@ export default function P404() {
                 <img src="/img/404.svg" width="300"/>
                 <div className="text-center">
                     <p><h1 className="primary ">Página no encontrada</h1></p>
-                    <a href="/" role="button" className="btn btn-outline-warning">Regresar</a>
+                    <a href="/Hotel-El-reposo" role="button" className="btn btn-outline-warning">Regresar</a>
                 </div>
             </div>
         </div>
