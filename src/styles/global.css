@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  height: 100%;
 }
 
 .marca {
@@ -15,11 +16,11 @@ body {
 }
 .marca > .punto {
   font-family: "Roboto", sans-serif;
-  color: #6c63ff;
+  color: #F9A826;
 }
 
-.bold{
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
 .primary {
   font-family: "Rubik", sans-serif;
@@ -27,3 +28,62 @@ body {
   font-size: 40px;
 }
 
+.secondary {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 33px;
+}
+.text-free {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.text-orange{
+  color: #F9A826;
+}
+.vertical-line {
+  width: 4px; /* Line width */
+  height: 30px;
+  border-radius: 20px;
+  background-color: #292b2c; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. You can instead use position:absolute or display:inline-block if this fits better with your design */
+}
+.line-orizontal{
+  width: 300px;
+}
+
+.text-muted {
+  font-family: "Roboto", sans-serif;
+}
+.text-roboto{
+  font-family: "Roboto", sans-serif;
+
+}
+.cuadros{
+  min-height: 100vh;
+}
+.cuadros1{
+  min-height: 91vh;
+}
+.img {
+  width: 250px;
+  height: 350px;
+}
+
+#image1{
+  background-image: url('/img/suite_1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image2{
+  background-image: url('/img/megasuite1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#image-contact{
+  background-image: url('/img/contact.jpg');
+  background-size: cover;
+  background-position: center; 
+}
